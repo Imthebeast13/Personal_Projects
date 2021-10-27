@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="415.0" prefWidth="847.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <ButtonBar buttonMinWidth="60.0" layoutX="7.0" layoutY="108.0" prefHeight="52.0" prefWidth="833.0">
+        <buttons>
+          <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" mnemonicParsing="false" onAction="#switchToMassa" text="Massa" textAlignment="CENTER" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" mnemonicParsing="false" onAction="#switchToArea" prefHeight="25.0" prefWidth="253.0" text="Área" textAlignment="CENTER" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" mnemonicParsing="false" onAction="#switchToDistancia" text="Distância" textAlignment="CENTER" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" mnemonicParsing="false" onAction="#switchToDigitalStorage" text="DigitalStorage" textAlignment="CENTER" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" mnemonicParsing="false" onAction="#switchToPressao" text="Pressão" textAlignment="CENTER" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" mnemonicParsing="false" onAction="#switchToTemperatura" text="Temperatura" textAlignment="CENTER" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" mnemonicParsing="false" onAction="#switchToVelocidade" text="Velocidade" textAlignment="CENTER" />
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="2.0" mnemonicParsing="false" onAction="#switchToVolume" text="Volume" textAlignment="CENTER" />
+        </buttons>
+      </ButtonBar>
+      <Separator layoutX="-3.0" layoutY="104.0" prefHeight="4.0" prefWidth="847.0" />
+      <Label fx:id="titleLabel" layoutX="-1.0" layoutY="35.0" prefHeight="30.0" prefWidth="847.0" text="Escolha um dos seguintes Conversores">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

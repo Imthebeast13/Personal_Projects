@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Button layoutX="274.0" layoutY="334.0" mnemonicParsing="false" onAction="#switchToMain" text="HOME" />
+      <Label layoutX="1.0" layoutY="54.0" prefHeight="17.0" prefWidth="600.0" text="DigitalStorage" />
+      <TextField fx:id="textfieldDS" layoutX="90.0" layoutY="126.0" prefHeight="25.0" prefWidth="75.0" promptText="Valor" />
+      <Label id="to" layoutX="348.0" layoutY="130.0" text="To" textAlignment="CENTER" />
+      <Button fx:id="submit" layoutX="87.0" layoutY="166.0" mnemonicParsing="false" onAction="#calculateDStorage" prefHeight="25.0" prefWidth="75.0" text="Converter" />
+      <ComboBox fx:id="opt1_DS" layoutX="189.0" layoutY="126.0" prefWidth="150.0" promptText="unidade" />
+      <ComboBox fx:id="opt2_DS" layoutX="376.0" layoutY="126.0" prefWidth="150.0" promptText="unidade" />
+      <Label fx:id="resultLabel" layoutX="182.0" layoutY="170.0" prefHeight="17.0" prefWidth="438.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
